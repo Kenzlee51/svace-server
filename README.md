@@ -1,3 +1,5 @@
 Cron schedule 0 12 * * *
-launch command 1 12 * * * /home/user/test-svace.sh >> /home/user/test-svace/svace-check.log 2>&1
-test cron crontab -l
+launch commands:
+crontab -e
+1 12 * * * /home/user/test_svace.sh >> /home/user/test-svace/svace_check.log 2>&1
+crontab -l
